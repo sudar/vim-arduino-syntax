@@ -26,6 +26,11 @@ Credit
 
 The syntax file was originally created by Johannes Hoff. I regenerated the file using his [python script](https://bitbucket.org/johannes/arduino-vim-syntax)] and added some additional changes on top of it.
 
+TODO
+====
+
+- Create a separate branch for Arduino 1.5
+
 Contributions
 ================
 
