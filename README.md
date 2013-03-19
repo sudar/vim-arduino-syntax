@@ -24,12 +24,13 @@ Using [Vundle](https://github.com/gmarik/vundle)
 Credit
 ======
 
-The syntax file was originally created by Johannes Hoff. I regenerated the file using his [python script](https://bitbucket.org/johannes/arduino-vim-syntax)] and added some additional changes on top of it.
+The syntax file was originally created by Johannes Hoff. I regenerated the file using his [python script](https://bitbucket.org/johannes/arduino-vim-syntax) and added some additional changes on top of it.
 
 TODO
 ====
 
 - Create a separate branch for Arduino 1.5
+- Automatically include keywords from keywords.txt of Arduino libraries
 
 Contributions
 ================
