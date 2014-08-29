@@ -6,7 +6,7 @@ Love Arduino and Vim? Then use this syntax file and get syntax highlighting for 
 Installation
 ============
 
-Manual 
+Manual
 ------
 - Copy `syntax/arduino.vim` file into your `~/.vim/syntax` directory
 - Copy `ftdetect/arduino.vim` file into your `~/.vim/ftdetect` directory
@@ -42,5 +42,5 @@ Other tools for Arduino and Vim
 
 If you are using Arduino with Vim, then also checkout some of my other projects.
 
-- [Arduino snippets for Vim](https://github.com/sudar/vim-wordpress-snippets)
+- [Arduino snippets for Vim](https://github.com/sudar/vim-arduino-snippets)
 - [Arduino Make file](https://github.com/sudar/Arduino-Makefile)
