@@ -16,9 +16,9 @@ Using [Vundle](https://github.com/gmarik/vundle)
 
 ```VimL
 
-    Bundle "sudar/vim-arduino-syntax"
+    Plugin "sudar/vim-arduino-syntax"
 
-    And :BundleInstall
+    And :PluginInstall
 
 ```
 Credit
