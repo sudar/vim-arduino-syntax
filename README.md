@@ -1,15 +1,18 @@
 #vim-arduino-syntax
 
-Love Arduino and Vim? Then use this syntax file and get syntax highlighting for Arduino functions in vim.
+Are you in love with Vim and can't stand the [Official Arduino IDE](http://arduino.cc/en/Main/Software)
 
 ##Features
+* Arduino 1.5.8 support
 * Arduino indent and syntax highlighting
-* Support for libraries (on request)
+* Support for libraries provided by the IDE 
+* Support for external libraries (on request)
 
 ##TODO
 
-- Create a separate branch for Arduino 1.5
-- Automatically include keywords from keywords.txt of Arduino libraries
+* Create a separate branch for Arduino 1.5
+* Automatically include keywords from keywords.txt of Arduino libraries
+* Autocompletion using omnicomplete
 
 ##Installation
 
