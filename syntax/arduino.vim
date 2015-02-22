@@ -28,33 +28,53 @@ else
   runtime! syntax/cpp.vim
 endif
 
-syn keyword arduinoConstant  BIN CHANGE DEC DEFAULT EXTERNAL FALLING HALF_PI HEX
-syn keyword arduinoConstant  HIGH INPUT INPUT_PULLUP INTERNAL INTERNAL1V1
-syn keyword arduinoConstant  INTERNAL2V56 LOW LSBFIRST MSBFIRST OCT OUTPUT PI
-syn keyword arduinoConstant  RISING TWO_PI
+" Constants
+syn keyword arduinoConstant HIGH LOW INPUT INPUT_PULLUP OUTPUT
+" Serial_Print
+syn keyword arduinoConstant DEC BIN HEX OCT PI HALF_PI TWO_PI 
+" ShiftOut
+syn keyword arduinoConstant LSBFIRST MSBFIRST
+" AttachInterrupt
+syn keyword arduinoConstant CHANGE FALLING RISING DEFAULT
+" AnalogReference
+syn keyword arduinoConstant EXTERNAL INTERNAL INTERNAL1V1 INTERNAL2V56
 
-syn keyword arduinoFunc      analogRead analogReference analogWrite
-syn keyword arduinoFunc      attachInterrupt bit bitClear bitRead bitSet
-syn keyword arduinoFunc      bitWrite delay delayMicroseconds detachInterrupt
-syn keyword arduinoFunc      digitalRead digitalWrite highByte interrupts
-syn keyword arduinoFunc      lowByte micros millis noInterrupts noTone pinMode
-syn keyword arduinoFunc      pulseIn shiftIn shiftOut tone
+" class
 
-syn keyword arduinoMethod    available begin end find findUntil flush loop
-syn keyword arduinoMethod    parseFloat parseInt peek print println read
-syn keyword arduinoMethod    readBytes readBytesUntil setTimeout setup
 
-syn keyword arduinoModule    Serial Serial1 Serial2 Serial3
+" Datatypes and C/C++ keywords
+syn keyword arduinoType         boolean byte char const class double float int long null word 
+syn keyword arduinoRepeat       do for
+syn keyword arduinoConditional  if else
+syn keyword arduinoConstant     false 
 
-syn keyword arduinoStdFunc   abs acos asin atan atan2 ceil constrain cos degrees
-syn keyword arduinoStdFunc   exp floor log map max min radians random randomSeed
-syn keyword arduinoStdFunc   round sin sq sqrt tan
+syn keyword arduinoOperator     += + [] = & | , ?: -- / . == < <= ++ != << > >= && ! 
+syn keyword arduinoOperator     || - % * >> -=
 
-syn keyword arduinoType      boolean byte null String word
+syn keyword arduinoStdFunc      abs acos asin atan atan2 ceil constrain cos degrees exp
+syn keyword arduinoStdFunc      floor log map max min radians random randomSeed round
+syn keyword arduinoStdFunc      round sin sq sqrt tan
 
-hi def link arduinoType Type
+syn keyword arduinoFunc         bitRead bitWrite bitSet bitClear highByte lowByte
+syn keyword arduinoFunc         analogReference analogRead analogWrite attachInterrupt
+syn keyword arduinoFunc         detachInterrupt delay delayMicroseconds digitalWrite 
+syn keyword arduinoFunc         digitalRead interrupts milis micros noInterrupts noTone
+syn keyword arduinoFunc         pinMode pulseIn shiftIn shiftOut tone
+syn keyword arduinoFunc         setup loop
+
+syn keyword arduinoFunc         begin end peek read print println available flush
+syn keyword arduinoFunc         setTimeout find findUntil parseInt parseFloat readBytes
+syn keyword arduinoFunc         readBytesUntil readString readStringUntil
+syn keyword arduinoIdentifier   Serial Serial1 Serial2 Serial3         
+
+syn keyword arduinoUSB          Keyboard Mouse press release releaseAll accept click move isPressed
+
 hi def link arduinoConstant Constant
+hi def link arduinoType Type
+hi def link arduinoRepeat Repeat
+hi def link arduinoConditional Conditional
+hi def link arduinoOperator Operator
 hi def link arduinoStdFunc Function
 hi def link arduinoFunc Function
+hi def link arduinoIdentifier Identifier
 hi def link arduinoMethod Function
-hi def link arduinoModule Identifier
