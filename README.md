@@ -34,17 +34,6 @@ Contributions are always welcome in the form of pull requests with explanatory c
 * Report bugs
 * Request support for libraries
 
-##Other tools for Arduino in Vim
-
-If you are using Arduino with Vim, then also checkout some of my other projects.
-
-- [Arduino snippets for Vim](https://github.com/sudar/vim-arduino-snippets)
-- [Arduino Make file](https://github.com/sudar/Arduino-Makefile)
-
-##Credits
-
-The syntax file was originally created by Johannes Hoff. I regenerated the file using his [python script](https://bitbucket.org/johannes/arduino-vim-syntax) and added some additional changes on top of it.
-
 ##Contributors
 * [sudar](https://github.com/sudar/) - Owner and main contributor
 * [z3t0](https://github.com/z3t0) - Active Contributor
