@@ -1,4 +1,4 @@
-#vim-arduino-syntax-2
+#vim-arduino-syntax
 
 Are you in love with Vim and can't stand the [Official Arduino IDE](http://arduino.cc/en/Main/Software)
 
