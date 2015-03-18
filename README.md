@@ -1,46 +1,42 @@
-vim-arduino-syntax
-==================
+#vim-arduino-syntax
 
-Love Arduino and Vim? Then use this syntax file and get syntax highlighting for Arduino functions in vim.
+Are you in love with Vim and can't stand the [Official Arduino IDE](http://arduino.cc/en/Main/Software)
 
-Installation
-============
+##Features
+* Arduino 1.5.8 support (check beta branch)
+* Arduino 1.0. support (main branch)
+* Arduino indent and syntax highlighting
+* Support for libraries provided by the IDE 
+* Support for external libraries (on request)
+* Autocompletion (using omnicomplete)
 
-Manual
-------
-- Copy `syntax/arduino.vim` file into your `~/.vim/syntax` directory
-- Copy `ftdetect/arduino.vim` file into your `~/.vim/ftdetect` directory
+##TODO
+* Let us know if you want any new features
 
-Using [Vundle](https://github.com/gmarik/vundle)
--------------
+##Installation
 
-```VimL
+This plugin follows the standard runtime path structure, and as such it can be installed with a variety of plugin managers:
 
-    Plugin "sudar/vim-arduino-syntax"
+*  [Pathogen](https://github.com/tpope/vim-pathogen)
+  *  `git clone https://github.com/sudar/vim-arduino-syntax`
+  *  Remember to run `:Helptags` to generate help tags
+*  [NeoBundle](https://github.com/Shougo/neobundle.vim)
+  *  `NeoBundle 'vim-arduino-syntax'`
+*  [Vundle](https://github.com/gmarik/Vundle.vim)
+  *  `Plugin 'sudar/vim-arduino-syntax'
+	:PluginInstall`
+*  manual
+  *  Copy syntax/arduino.vim file into your ~/.vim/syntax directory
+	 Copy ftdetect/arduino.vim file into your ~/.vim/ftdetect directory
 
-    And :PluginInstall
-
-```
-Credit
-======
-
-The syntax file was originally created by Johannes Hoff. I regenerated the file using his [python script](https://bitbucket.org/johannes/arduino-vim-syntax) and added some additional changes on top of it.
-
-TODO
-====
-
-- Create a separate branch for Arduino 1.5
-- Automatically include keywords from keywords.txt of Arduino libraries
-
-Contributions
-================
-
+##Contributing
 Contributions are always welcome in the form of pull requests with explanatory comments.
 
-Other tools for Arduino and Vim
-===========================
+* Add library specific support using instructions from here. (coming soon)
+* Request adding more external libraries (complete within a few hours)
+* Report bugs
+* Request support for libraries
 
-If you are using Arduino with Vim, then also checkout some of my other projects.
-
-- [Arduino snippets for Vim](https://github.com/sudar/vim-arduino-snippets)
-- [Arduino Make file](https://github.com/sudar/Arduino-Makefile)
+##Contributors
+* [z3t0](https://github.com/z3t0) - Active contributor
+* [sudar](https://github.com/sudar) - Owner and contributor
