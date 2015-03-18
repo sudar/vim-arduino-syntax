@@ -262,21 +262,21 @@ syn keyword arduinoConstant EEPROM
 "# Methods and Functions (KEYWORD2) {{{
 "}}}
 "####################################### {{{
-syn keyword  begin
-syn keyword  beginTransmission
-syn keyword  endTransmission
-syn keyword  requestFrom
-syn keyword  send
-syn keyword  receive
-syn keyword  onReceive
-syn keyword  onRequest
+syn keyword arduinoFunc begin
+syn keyword arduinoFunc  beginTransmission
+syn keyword arduinoFunc endTransmission
+syn keyword arduinoFunc requestFrom
+syn keyword arduinoFunc send
+syn keyword arduinoFunc receive
+syn keyword arduinoFunc onReceive
+syn keyword arduinoFunc onRequest
 "}}}
 "####################################### {{{
 "}}}
 "# Instances (KEYWORD2) {{{
 "}}}
 "####################################### {{{
-syn keyword  Wire
+syn keyword arduinoFunc Wire
 "}}}
 "####################################### {{{
 "}}}
@@ -295,45 +295,45 @@ syn keyword  Wire
 "# Datatypes (KEYWORD1) {{{
 "}}}
 "####################################### {{{
-syn keyword  WiFi
-syn keyword  Client
-syn keyword  Server
+syn keyword arduinoFunc WiFi
+syn keyword arduinoFunc Client
+syn keyword arduinoFunc Server
 "}}}
 "####################################### {{{
 "}}}
 "# Methods and Functions (KEYWORD2) {{{
 "}}}
 "####################################### {{{
-syn keyword  status
-syn keyword  connect
-syn keyword  write
-syn keyword  available
-syn keyword  config
-syn keyword  setDNS
-syn keyword  read
-syn keyword  flush
-syn keyword  stop
-syn keyword  connected
-syn keyword  begin
-syn keyword  disconnect
-syn keyword  macAddress
-syn keyword  localIP
-syn keyword  subnetMask
-syn keyword  gatewayIP
+syn keyword arduinoFunc status
+syn keyword arduinoFunc connect
+syn keyword arduinoFunc write
+syn keyword arduinoFunc available
+syn keyword arduinoFunc config
+syn keyword arduinoFunc setDNS
+syn keyword arduinoFunc read
+syn keyword arduinoFunc flush
+syn keyword arduinoFunc stop
+syn keyword arduinoFunc connected
+syn keyword arduinoFunc begin
+syn keyword arduinoFunc disconnect
+syn keyword arduinoFunc macAddress
+syn keyword arduinoFunc localIP
+syn keyword arduinoFunc subnetMask
+syn keyword arduinoFunc gatewayIP
 syn keyword arduinoConstant SSID
 syn keyword arduinoConstant BSSID
 syn keyword arduinoConstant RSSI
-syn keyword  encryptionType
-syn keyword  getResult
-syn keyword  getSocket
-syn keyword  WiFiClient
-syn keyword  WiFiServer
-syn keyword  WiFiUDP
-syn keyword  beginPacket
-syn keyword  endPacket
-syn keyword  parsePacket
-syn keyword  remoteIP
-syn keyword  remotePort
+syn keyword arduinoFunc encryptionType
+syn keyword arduinoFunc getResult
+syn keyword arduinoFunc getSocket
+syn keyword arduinoFunc WiFiClient
+syn keyword arduinoFunc WiFiServer
+syn keyword arduinoFunc WiFiUDP
+syn keyword arduinoFunc beginPacket
+syn keyword arduinoFunc endPacket
+syn keyword arduinoFunc parsePacket
+syn keyword arduinoFunc remoteIP
+syn keyword arduinoFunc remotePort
 "}}}
 "####################################### {{{
 "}}}
@@ -352,20 +352,20 @@ syn keyword  remotePort
 "# Datatypes (KEYWORD1) {{{
 "}}}
 "####################################### {{{
-syn keyword  Servo
+syn keyword arduinoFunc Servo
 "}}}
 "####################################### {{{
 "}}}
 "# Methods and Functions (KEYWORD2) {{{
 "}}}
 "####################################### {{{
-syn keyword  attach
-syn keyword  detach
-syn keyword  write
-syn keyword  read
-syn keyword  attached
-syn keyword  writeMicroseconds
-syn keyword  readMicroseconds
+syn keyword arduinoFunc attach
+syn keyword arduinoFunc detach
+syn keyword arduinoFunc write
+syn keyword arduinoFunc read
+syn keyword arduinoFunc attached
+syn keyword arduinoFunc writeMicroseconds
+syn keyword arduinoFunc readMicroseconds
 "}}}
 "####################################### {{{
 "}}}
@@ -382,33 +382,33 @@ syn keyword  readMicroseconds
 "# Class {{{
 "}}}
 "####################################### {{{
-syn keyword  Esplora
+syn keyword arduinoFunc Esplora
 "}}}
 "####################################### {{{
 "}}}
 "# Methods and Functions  {{{
 "}}}
 "#######################################	 {{{
-syn keyword  begin
-syn keyword  readSlider
-syn keyword  readLightSensor
-syn keyword  readTemperature
-syn keyword  readMicrophone
-syn keyword  readJoystickSwitch
-syn keyword  readJoystickButton
-syn keyword  readJoystickX
-syn keyword  readJoystickY
-syn keyword  readAccelerometer
-syn keyword  readButton
-syn keyword  writeRGB
-syn keyword  writeRed
-syn keyword  writeGreen
-syn keyword  writeBlue
-syn keyword  readRed
-syn keyword  readGreen
-syn keyword  readBlue
-syn keyword  tone
-syn keyword  noTone
+syn keyword arduinoFunc begin
+syn keyword arduinoFunc readSlider
+syn keyword arduinoFunc readLightSensor
+syn keyword arduinoFunc readTemperature
+syn keyword arduinoFunc readMicrophone
+syn keyword arduinoFunc readJoystickSwitch
+syn keyword arduinoFunc readJoystickButton
+syn keyword arduinoFunc readJoystickX
+syn keyword arduinoFunc readJoystickY
+syn keyword arduinoFunc readAccelerometer
+syn keyword arduinoFunc readButton
+syn keyword arduinoFunc writeRGB
+syn keyword arduinoFunc writeRed
+syn keyword arduinoFunc writeGreen
+syn keyword arduinoFunc writeBlue
+syn keyword arduinoFunc readRed
+syn keyword arduinoFunc readGreen
+syn keyword arduinoFunc readBlue
+syn keyword arduinoFunc tone
+syn keyword arduinoFunc noTone
 "}}}
 "####################################### {{{
 "}}}
@@ -458,24 +458,24 @@ syn keyword arduinoConstant Z_AXIS
 "# Datatypes (KEYWORD1) {{{
 "}}}
 "####################################### {{{
-syn keyword  Stepper
+syn keyword arduinoFunc Stepper
 "}}}
 "####################################### {{{
 "}}}
 "# Methods and Functions (KEYWORD2) {{{
 "}}}
 "####################################### {{{
-syn keyword  step
-syn keyword  setSpeed
-syn keyword  version
+syn keyword arduinoFunc step
+syn keyword arduinoFunc setSpeed
+syn keyword arduinoFunc version
 "}}}
 "###################################### {{{
 "}}}
 "# Instances (KEYWORD2) {{{
 "}}}
 "####################################### {{{
-syn keyword  direction
-syn keyword  speed
+syn keyword arduinoFunc direction
+syn keyword arduinoFunc speed
 "}}}
 "####################################### {{{
 "}}}
@@ -495,23 +495,23 @@ syn keyword  speed
 "}}}
 "####################################### {{{
 syn keyword arduinoConstant SD
-syn keyword  File
+syn keyword arduinoFunc File
 "}}}
 "####################################### {{{
 "}}}
 "# Methods and Functions (KEYWORD2) {{{
 "}}}
 "####################################### {{{
-syn keyword  begin
-syn keyword  exists
-syn keyword  mkdir
-syn keyword  remove
-syn keyword  rmdir
-syn keyword  open
-syn keyword  close
-syn keyword  seek
-syn keyword  position
-syn keyword  size
+syn keyword arduinoFunc begin
+syn keyword arduinoFunc exists
+syn keyword arduinoFunc mkdir
+syn keyword arduinoFunc remove
+syn keyword arduinoFunc rmdir
+syn keyword arduinoFunc open
+syn keyword arduinoFunc close
+syn keyword arduinoFunc seek
+syn keyword arduinoFunc position
+syn keyword arduinoFunc size
 "}}}
 "####################################### {{{
 "}}}
@@ -531,50 +531,49 @@ syn keyword arduinoConstant FILE_WRITE
 "}}}
 "####################################### {{{
 syn keyword arduinoConstant GSM
-syn keyword  GSMVoiceCall
+syn keyword arduinoFunc GSMVoiceCall
 syn keyword arduinoConstant GSM_SMS
 syn keyword arduinoConstant GPRS
-syn keyword  GSMClient
-syn keyword  GSMServer
-syn keyword  GSMModem
-syn keyword  GSMScanner
+syn keyword arduinoFunc GSMClient
+syn keyword arduinoFunc GSMServer
+syn keyword arduinoFunc GSMModem
+syn keyword arduinoFunc GSMScanner
 syn keyword arduinoConstant GSMPIN
-syn keyword  
 "}}}
 "####################################### {{{
 "}}}
 "# Methods and Functions  {{{
 "}}}
 "#######################################	 {{{
-syn keyword  begin
-syn keyword  shutdown
-syn keyword  gatVoiceCallStatus
-syn keyword  ready
-syn keyword  voiceCall
-syn keyword  answerCall
-syn keyword  hangCall
-syn keyword  retrieveCallingNumber
-syn keyword  beginSMS
-syn keyword  endSMS
-syn keyword  remoteNumber
-syn keyword  attachGPRS
-syn keyword  begnWrite
-syn keyword  endWrite
-syn keyword  getIMEI
-syn keyword  getCurrentCarrier
-syn keyword  getSignalStrength
-syn keyword  readNetworks
-syn keyword  isPIN
-syn keyword  checkPIN
-syn keyword  checkPUK
-syn keyword  changePIN
-syn keyword  switchPIN
-syn keyword  checkReg
-syn keyword  getPINUsed
-syn keyword  setPINUsed
-syn keyword  getBand
-syn keyword  setBand
-syn keyword  getvoiceCallStatus
+syn keyword arduinoFunc begin
+syn keyword arduinoFunc shutdown
+syn keyword arduinoFunc gatVoiceCallStatus
+syn keyword arduinoFunc ready
+syn keyword arduinoFunc voiceCall
+syn keyword arduinoFunc answerCall
+syn keyword arduinoFunc hangCall
+syn keyword arduinoFunc retrieveCallingNumber
+syn keyword arduinoFunc beginSMS
+syn keyword arduinoFunc endSMS
+syn keyword arduinoFunc remoteNumber
+syn keyword arduinoFunc attachGPRS
+syn keyword arduinoFunc begnWrite
+syn keyword arduinoFunc endWrite
+syn keyword arduinoFunc getIMEI
+syn keyword arduinoFunc getCurrentCarrier
+syn keyword arduinoFunc getSignalStrength
+syn keyword arduinoFunc readNetworks
+syn keyword arduinoFunc isPIN
+syn keyword arduinoFunc checkPIN
+syn keyword arduinoFunc checkPUK
+syn keyword arduinoFunc changePIN
+syn keyword arduinoFunc switchPIN
+syn keyword arduinoFunc checkReg
+syn keyword arduinoFunc getPINUsed
+syn keyword arduinoFunc setPINUsed
+syn keyword arduinoFunc getBand
+syn keyword arduinoFunc setBand
+syn keyword arduinoFunc getvoiceCallStatus
 "}}}
 "####################################### {{{
 "}}}
@@ -617,12 +616,12 @@ syn keyword arduinoConstant SPI
 "# Methods and Functions (KEYWORD2) {{{
 "}}}
 "####################################### {{{
-syn keyword  begin
-syn keyword  end
-syn keyword  transfer
-syn keyword  setBitOrder
-syn keyword  setDataMode
-syn keyword  setClockDivider
+syn keyword arduinoFunc begin
+syn keyword arduinoFunc end
+syn keyword arduinoFunc transfer
+syn keyword arduinoFunc setBitOrder
+syn keyword arduinoFunc setDataMode
+syn keyword arduinoFunc setClockDivider
 "}}}
 "####################################### {{{
 "}}}
@@ -653,21 +652,21 @@ syn keyword arduinoConstant SPI_MODE3
 "# Datatypes (KEYWORD1) {{{
 "}}}
 "####################################### {{{
-syn keyword  NewSoftSerial
+syn keyword arduinoFunc NewSoftSerial
 "}}}
 "####################################### {{{
 "}}}
 "# Methods and Functions (KEYWORD2) {{{
 "}}}
 "####################################### {{{
-syn keyword  begin
-syn keyword  end
-syn keyword  read
-syn keyword  available
-syn keyword  isListening
-syn keyword  overflow
-syn keyword  flush
-syn keyword  listen
+syn keyword arduinoFunc begin
+syn keyword arduinoFunc end
+syn keyword arduinoFunc read
+syn keyword arduinoFunc available
+syn keyword arduinoFunc isListening
+syn keyword arduinoFunc overflow
+syn keyword arduinoFunc flush
+syn keyword arduinoFunc listen
 "}}}
 "####################################### {{{
 "}}}
@@ -686,31 +685,31 @@ syn keyword  listen
 "# Datatypes (KEYWORD1) {{{
 "}}}
 "####################################### {{{
-syn keyword  Ethernet
-syn keyword  EthernetClient
-syn keyword  EthernetServer
-syn keyword  IPAddress
+syn keyword arduinoFunc Ethernet
+syn keyword arduinoFunc EthernetClient
+syn keyword arduinoFunc EthernetServer
+syn keyword arduinoFunc IPAddress
 "}}}
 "####################################### {{{
 "}}}
 "# Methods and Functions (KEYWORD2) {{{
 "}}}
 "####################################### {{{
-syn keyword  status
-syn keyword  connect
-syn keyword  write
-syn keyword  available
-syn keyword  read
-syn keyword  peek
-syn keyword  flush
-syn keyword  stop
-syn keyword  connected
-syn keyword  begin
-syn keyword  beginPacket
-syn keyword  endPacket
-syn keyword  parsePacket
-syn keyword  remoteIP
-syn keyword  remotePort
+syn keyword arduinoFunc status
+syn keyword arduinoFunc connect
+syn keyword arduinoFunc write
+syn keyword arduinoFunc available
+syn keyword arduinoFunc read
+syn keyword arduinoFunc peek
+syn keyword arduinoFunc flush
+syn keyword arduinoFunc stop
+syn keyword arduinoFunc connected
+syn keyword arduinoFunc begin
+syn keyword arduinoFunc beginPacket
+syn keyword arduinoFunc endPacket
+syn keyword arduinoFunc parsePacket
+syn keyword arduinoFunc remoteIP
+syn keyword arduinoFunc remotePort
 "}}}
 "####################################### {{{
 "}}}
@@ -729,36 +728,36 @@ syn keyword  remotePort
 "# Datatypes (KEYWORD1) {{{
 "}}}
 "####################################### {{{
-syn keyword  Firmata
-syn keyword  callbackFunction
-syn keyword  systemResetCallbackFunction
-syn keyword  stringCallbackFunction
-syn keyword  sysexCallbackFunction
+syn keyword arduinoFunc Firmata
+syn keyword arduinoFunc callbackFunction
+syn keyword arduinoFunc systemResetCallbackFunction
+syn keyword arduinoFunc stringCallbackFunction
+syn keyword arduinoFunc sysexCallbackFunction
 "}}}
 "####################################### {{{
 "}}}
 "# Methods and Functions (KEYWORD2) {{{
 "}}}
 "####################################### {{{
-syn keyword  begin
-syn keyword  begin
-syn keyword  printVersion
-syn keyword  blinkVersion
-syn keyword  printFirmwareVersion
-syn keyword  setFirmwareVersion
-syn keyword  setFirmwareNameAndVersion
-syn keyword  available
-syn keyword  processInput
-syn keyword  sendAnalog
-syn keyword  sendDigital
-syn keyword  sendDigitalPortPair
-syn keyword  sendDigitalPort
-syn keyword  sendString
-syn keyword  sendString
-syn keyword  sendSysex
-syn keyword  attach
-syn keyword  detach
-syn keyword  flush
+syn keyword arduinoFunc begin
+syn keyword arduinoFunc begin
+syn keyword arduinoFunc printVersion
+syn keyword arduinoFunc blinkVersion
+syn keyword arduinoFunc printFirmwareVersion
+syn keyword arduinoFunc setFirmwareVersion
+syn keyword arduinoFunc setFirmwareNameAndVersion
+syn keyword arduinoFunc available
+syn keyword arduinoFunc processInput
+syn keyword arduinoFunc sendAnalog
+syn keyword arduinoFunc sendDigital
+syn keyword arduinoFunc sendDigitalPortPair
+syn keyword arduinoFunc sendDigitalPort
+syn keyword arduinoFunc sendString
+syn keyword arduinoFunc sendString
+syn keyword arduinoFunc sendSysex
+syn keyword arduinoFunc attach
+syn keyword arduinoFunc detach
+syn keyword arduinoFunc flush
 "}}}
 "####################################### {{{
 "}}}
@@ -805,7 +804,7 @@ syn keyword arduinoConstant TFT
 "# Constants (LITERAL1) {{{
 "}}}
 "####################################### {{{
-syn keyword  EsploraTFT
+syn keyword arduinoFunc EsploraTFT
 "}}}
 "####################################### {{{
 "}}}
@@ -820,59 +819,59 @@ syn keyword  EsploraTFT
 "# Datatypes (KEYWORD1) {{{
 "}}}
 "####################################### {{{
-syn keyword  Adafruit_GFX
-syn keyword  Adafruit_ST7735
-syn keyword  PImage
+syn keyword arduinoFunc Adafruit_GFX
+syn keyword arduinoFunc Adafruit_ST7735
+syn keyword arduinoFunc PImage
 "}}}
 "####################################### {{{
 "}}}
 "# Methods and Functions (KEYWORD2) {{{
 "}}}
 "####################################### {{{
-syn keyword  drawPixel
-syn keyword  invertDisplay
-syn keyword  drawLine
-syn keyword  drawFastVLine
-syn keyword  drawFastHLine
-syn keyword  drawRect
-syn keyword  fillRect
-syn keyword  fillScreen
-syn keyword  drawCircle
-syn keyword  drawCircleHelper
-syn keyword  fillCircle
-syn keyword  fillCircleHelper
-syn keyword  drawTriangle
-syn keyword  fillTriangle
-syn keyword  drawRoundRect
-syn keyword  fillRoundRect
-syn keyword  drawBitmap
-syn keyword  drawChar
-syn keyword  setCursor
-syn keyword  setTextColor
-syn keyword  setTextSize
-syn keyword  setTextWrap
-syn keyword  height
-syn keyword  width
-syn keyword  setRotation
-syn keyword  getRotation
-syn keyword  newColor
-syn keyword  background
-syn keyword  fill
-syn keyword  noFill
-syn keyword  stroke
-syn keyword  noStroke
-syn keyword  text
-syn keyword  textWrap
-syn keyword  textSize
-syn keyword  circle
-syn keyword  point
-syn keyword  quad
-syn keyword  rect
-syn keyword  triangle
-syn keyword  loadImage
-syn keyword  image
-syn keyword  draw
-syn keyword  isValid
+syn keyword arduinoFunc drawPixel
+syn keyword arduinoFunc invertDisplay
+syn keyword arduinoFunc drawLine
+syn keyword arduinoFunc drawFastVLine
+syn keyword arduinoFunc drawFastHLine
+syn keyword arduinoFunc drawRect
+syn keyword arduinoFunc fillRect
+syn keyword arduinoFunc fillScreen
+syn keyword arduinoFunc drawCircle
+syn keyword arduinoFunc drawCircleHelper
+syn keyword arduinoFunc fillCircle
+syn keyword arduinoFunc fillCircleHelper
+syn keyword arduinoFunc drawTriangle
+syn keyword arduinoFunc fillTriangle
+syn keyword arduinoFunc drawRoundRect
+syn keyword arduinoFunc fillRoundRect
+syn keyword arduinoFunc drawBitmap
+syn keyword arduinoFunc drawChar
+syn keyword arduinoFunc setCursor
+syn keyword arduinoFunc setTextColor
+syn keyword arduinoFunc setTextSize
+syn keyword arduinoFunc setTextWrap
+syn keyword arduinoFunc height
+syn keyword arduinoFunc width
+syn keyword arduinoFunc setRotation
+syn keyword arduinoFunc getRotation
+syn keyword arduinoFunc newColor
+syn keyword arduinoFunc background
+syn keyword arduinoFunc fill
+syn keyword arduinoFunc noFill
+syn keyword arduinoFunc stroke
+syn keyword arduinoFunc noStroke
+syn keyword arduinoFunc text
+syn keyword arduinoFunc textWrap
+syn keyword arduinoFunc textSize
+syn keyword arduinoFunc circle
+syn keyword arduinoFunc point
+syn keyword arduinoFunc quad
+syn keyword arduinoFunc rect
+syn keyword arduinoFunc triangle
+syn keyword arduinoFunc loadImage
+syn keyword arduinoFunc image
+syn keyword arduinoFunc draw
+syn keyword arduinoFunc isValid
 "}}}
 "####################################### {{{
 "}}}
@@ -891,31 +890,31 @@ syn keyword  isValid
 "# Datatypes (KEYWORD1) {{{
 "}}}
 "####################################### {{{
-syn keyword  LiquidCrystal
+syn keyword arduinoFunc LiquidCrystal
 "}}}
 "####################################### {{{
 "}}}
 "# Methods and Functions (KEYWORD2) {{{
 "}}}
 "####################################### {{{
-syn keyword  begin
-syn keyword  clear
-syn keyword  home
-syn keyword  print
-syn keyword  setCursor
-syn keyword  cursor
-syn keyword  noCursor
-syn keyword  blink
-syn keyword  noBlink
-syn keyword  display
-syn keyword  noDisplay
-syn keyword  autoscroll
-syn keyword  noAutoscroll
-syn keyword  leftToRight
-syn keyword  rightToLeft
-syn keyword  scrollDisplayLeft
-syn keyword  scrollDisplayRight
-syn keyword  createChar
+syn keyword arduinoFunc begin
+syn keyword arduinoFunc clear
+syn keyword arduinoFunc home
+syn keyword arduinoFunc print
+syn keyword arduinoFunc setCursor
+syn keyword arduinoFunc cursor
+syn keyword arduinoFunc noCursor
+syn keyword arduinoFunc blink
+syn keyword arduinoFunc noBlink
+syn keyword arduinoFunc display
+syn keyword arduinoFunc noDisplay
+syn keyword arduinoFunc autoscroll
+syn keyword arduinoFunc noAutoscroll
+syn keyword arduinoFunc leftToRight
+syn keyword arduinoFunc rightToLeft
+syn keyword arduinoFunc scrollDisplayLeft
+syn keyword arduinoFunc scrollDisplayRight
+syn keyword arduinoFunc createChar
 "}}}
 "####################################### {{{
 "}}}
