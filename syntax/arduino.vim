@@ -166,11 +166,3 @@ hi def link arduinoFunc Function
 hi def link arduinoMethod Function
 hi def link arduinoIdentifier Identifier
 hi def link arduinoOperator Operator
-
-hi def link arduinoLibraryType Type
-hi def link arduinoLibraryConstant Constant
-hi def link arduinoLibraryStdFunc Function
-hi def link arduinoLibraryFunc Function
-hi def link arduinoLibraryMethod Function
-hi def link arduinoLibraryIdentifier Identifier
-hi def link arduinoLibraryOperator Operator
