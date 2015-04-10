@@ -61,7 +61,9 @@ endif
 	syn keyword arduinoFunc sq sqrt tan pow bitRead bitWrite bitSet bitClear bit highByte
 	syn keyword arduinoFunc lowByte analogReference analogRead analogWrite attachInterrupt detachInterrupt delay delayMicroseconds digitalWrite digitalRead
 	syn keyword arduinoFunc interrupts millis micros noInterrupts noTone pinMode pulseIn shiftIn shiftOut tone
-	syn keyword arduinoFunc yield Serial Serial1 Serial2 Serial3 SerialUSB begin end peek read
+	syn keyword arduinoFunc yield 
+	syn keyword arduinoIdentifier Serial Serial1 Serial2 Serial3  
+	syn keyword arduinoFunc SerialUSB begin end peek read
 	syn keyword arduinoFunc print println available availableForWrite flush setTimeout find findUntil parseInt parseFloat
 	syn keyword arduinoFunc readBytes readBytesUntil readString readStringUntil trim toUpperCase toLowerCase charAt compareTo concat
 	syn keyword arduinoFunc endsWith startsWith equals equalsIgnoreCase getBytes indexOf lastIndexOf length replace setCharAt
@@ -153,7 +155,7 @@ endif
 	syn keyword arduinoConstant SSID BSSID RSSI
 	syn keyword arduinoFunc WiFi WiFiUdp Client Server firmwareVersion status connect write available config
 	syn keyword arduinoFunc setDNS read flush stop connected begin disconnect macAddress localIP subnetMask
-	syn keyword arduinoFunc gatewayIP encryptionType getResult getSocket WiFiClient WiFiServer WiFiUDP beginPacket endPacket parsePacket
+	syn keyword arduinoFunSec gatewayIP encryptionType getResult getSocket WiFiClient WiFiServer WiFiUDP beginPacket endPacket parsePacket
 	syn keyword arduinoFunc remoteIP remotePort
 "}}}
 
@@ -161,8 +163,5 @@ endif
 
 hi def link arduinoType Type
 hi def link arduinoConstant Constant
-hi def link arduinoStdFunc Function
 hi def link arduinoFunc Function
-hi def link arduinoMethod Function
 hi def link arduinoIdentifier Identifier
-hi def link arduinoOperator Operator
