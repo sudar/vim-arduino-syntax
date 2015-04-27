@@ -1,44 +1,62 @@
 vim-arduino-syntax
-==================
+===================
 
 Love Arduino and Vim? Then use this syntax file and get syntax highlighting for Arduino functions in vim.
 
-Installation
-============
+## Features
 
-Manual
-------
-- Copy `syntax/arduino.vim` file into your `~/.vim/syntax` directory
-- Copy `ftdetect/arduino.vim` file into your `~/.vim/ftdetect` directory
+- Supports both Arduino IDE 1.0.x and 1.5.x
+- Arduino indent and syntax highlighting
+- Support for libraries provided by the IDE
+- Autocompletion (using omnicomplete)
 
-Using [Vundle](https://github.com/gmarik/vundle)
--------------
+## TODO
 
-```VimL
+- Automatically include keywords from keywords.txt of Arduino User libraries
 
-    Plugin 'sudar/vim-arduino-syntax'
+## Installation
 
-    And :PluginInstall
+This plugin follows the standard runtime path structure, and as such it can be installed with a variety of plugin managers:
+
+### [Pathogen](https://github.com/tpope/vim-pathogen)
+
+```sh
+git clone https://github.com/sudar/vim-arduino-syntax
+```
+
+Remember to run `:Helptags` to generate help tags
+
+### [NeoBundle](https://github.com/Shougo/neobundle.vim)
 
 ```
-Credit
-======
+NeoBundle 'vim-arduino-syntax'
+```
 
-The syntax file was originally created by Johannes Hoff. I regenerated the file using his [python script](https://bitbucket.org/johannes/arduino-vim-syntax) and added some additional changes on top of it.
+### [Vundle](https://github.com/gmarik/Vundle.vim)
 
-TODO
-====
+```
+Plugin 'sudar/vim-arduino-syntax'
 
-- Create a separate branch for Arduino 1.5
-- Automatically include keywords from keywords.txt of Arduino libraries
+:PluginInstall
+```
 
-Contributions
-================
+###  Manual
+
+- Copy `syntax/arduino.vim` file into your `~/.vim/syntax` directory
+- Copy `ftdetect/arduino.vim` file into your `~/.vim/ftdetect` directory
+- Copy `indent/arduino.vim` file into your `~/.vim/indent` directory
+
+## Contributing
 
 Contributions are always welcome in the form of pull requests with explanatory comments.
 
-Other tools for Arduino and Vim
-===========================
+## Credit
+
+- The syntax file was originally created by Johannes Hoff. I regenerated the file using his [python script](https://bitbucket.org/johannes/arduino-vim-syntax) and added some additional changes on top of it.
+- Arduino 1.5.x support was added by [z3t0](https://github.com/z3t0)
+- Support for indent was added by [KevinSjoberg](https://github.com/KevinSjoberg)
+
+## Other tools for Arduino and Vim
 
 If you are using Arduino with Vim, then also checkout some of my other projects.
 
