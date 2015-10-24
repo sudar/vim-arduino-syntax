@@ -3,6 +3,8 @@ vim-arduino-syntax
 
 Love Arduino and Vim? Then use this syntax file and get syntax highlighting for Arduino functions in vim.
 
+This plugin contributes to [vim-polyglot](https://github.com/sheerun/vim-polyglot) language pack.
+
 ## Features
 
 - Supports both Arduino IDE 1.0.x and 1.5.x
